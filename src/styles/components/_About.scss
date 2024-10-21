@@ -1,0 +1,72 @@
+.about-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.home {
+  align-self: flex-start;
+
+  img {
+    filter: invert(85%);
+    position: fixed;
+    z-index: 1000;
+    top: 1rem;
+    left: 1rem;
+    padding: 5px;
+    border-radius: 20%;
+    border: 1px solid greenyellow;
+    max-width: 40px;
+    max-height: 40px;
+    transition: box-shadow 0.3s ease;
+  }
+
+  img:hover {
+    border-color: rgb(7, 4, 173);
+    box-shadow: 0 0 10px rgb(7, 4, 173), 0 0 20px rgb(7, 4, 173);
+  }
+}
+
+.about__container {
+  width: 80%;
+  margin: 0 2rem;
+}
+
+.name,
+.history,
+.clients,
+.experience {
+  color: whitesmoke;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  border: 1px solid rgb(7, 4, 173);
+  margin-bottom: 2rem;
+  backdrop-filter: blur(10px);
+  transition: box-shadow 0.3s ease;
+}
+
+.name:hover,
+.history:hover,
+.clients:hover,
+.experience:hover {
+  border-color: rgb(7, 4, 173);
+  box-shadow: 0 0 10px rgb(7, 4, 173), 0 0 20px rgb(7, 4, 173);
+}
+
+.name {
+  margin-top: 3rem;
+
+  h1 {
+    font-size: 2rem;
+    color: #fefe5b;
+  }
+}
+
+.clients,
+.experience {
+  color: #fefe5b;
+  font-size: 1.5rem;
+}

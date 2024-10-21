@@ -1,0 +1,35 @@
+.home__container {
+  display: grid;
+  padding: 10px;
+  margin-top: 3rem;
+
+  .cItems1 {
+    grid-column: 1/2;
+    justify-self: flex-start;
+  }
+
+  .cItems2 {
+    grid-column: 2/2;
+    justify-self: flex-end;
+  }
+
+  &__items {
+    .item {
+      margin-bottom: 10px;
+    }
+
+    img {
+      filter: invert(85%);
+      padding: 5px;
+      border-radius: 20%;
+      border: 1px solid greenyellow;
+      max-width: 40px;
+      max-height: 40px;
+    }
+
+    img:hover {
+    border-color: rgb(7, 4, 173);
+    box-shadow: 0 0 10px rgb(7, 4, 173), 0 0 20px rgb(7, 4, 173);
+  }
+  }
+}
