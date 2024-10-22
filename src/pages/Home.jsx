@@ -1,11 +1,14 @@
 import React from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+import useTitulo from '../hooks/useTitulo';
 
 const Home = () => {
+  useTitulo('Home');
+
   return (
     <>
       <div className='home__container'>
-        <div className='home__container__items cItems1'>
+        <div className='home__container__items container-Items1'>
           <div className='item'>
             <NavLink to='/'>
               <img src={'../home.png'} alt='Home address icons created by alihmirza111 - Flaticon' />
@@ -27,26 +30,35 @@ const Home = () => {
             </NavLink>
           </div>
         </div>
-        <div className='home__container__items cItems2'>
+        <div className='home__container__items container-Items2'>
           <div className='item'>
-            <NavLink>
+            <a href={'https://github.com/wilmanconde2'} target='_blank' rel='noopener noreferrer'>
               <img src={'../github.png'} alt='Github icons created by -Artist - Flaticon' />
-            </NavLink>
+            </a>
           </div>
           <div className='item'>
-            <NavLink to='/'>
+            <a
+              href={'https://www.linkedin.com/in/wilman-conde/?originalSubdomain=co'}
+              target='_blank'
+              rel='noopener noreferrer'
+            >
               <img src={'../linkedin.png'} alt='Linkedin icons created by Smashicons - Flaticon' />
-            </NavLink>
+            </a>
           </div>
           <div className='item'>
-            <NavLink>
+            <a href={'https://x.com/WilmanConde1982'} target='_blank' rel='noopener noreferrer'>
               <img src={'../x.png'} alt='Tweet icons created by Freepik - Flaticon' />
-            </NavLink>
+            </a>
           </div>
           <div className='item'>
-            <NavLink to='#'>
+            <a></a>
+            <a
+              href={'https://drive.google.com/file/d/1-BUjK1gPM33Ggu-xrK2GfTirJR7r07nz/view?usp=sharing'}
+              target='_blank'
+              rel='noopener noreferrer'
+            >
               <img src={'../resume.png'} alt='Portfolio icons created by Freepik - Flaticon' />
-            </NavLink>
+            </a>
           </div>
         </div>
       </div>

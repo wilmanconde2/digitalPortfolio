@@ -1,5 +1,3 @@
-import { Link } from 'react-router-dom';
-
 const Card = ({ title, description, link, footer }) => {
   return (
     <div className='card text-center'>
@@ -7,9 +5,9 @@ const Card = ({ title, description, link, footer }) => {
       <div className='card-body'>
         <h5 className='card-title'>{title}</h5>
         <p className='card-text'>{description}</p>
-        <Link to={link} className='btn btn-primary' target='blank'>
+        <a href={link} className='btn btn-primary' target='_blank' rel='noopener noreferrer'>
           GitHub Repository
-        </Link>
+        </a>
       </div>
       <div className='card-footer'>{footer}</div>
     </div>

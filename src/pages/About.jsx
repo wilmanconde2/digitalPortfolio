@@ -1,7 +1,10 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import useTitulo from '../hooks/useTitulo';
 
 const About = () => {
+  useTitulo('About');
+
   return (
     <>
       <div className='about-page'>
@@ -13,7 +16,7 @@ const About = () => {
           </div>
           <div className='name'>
             <h1>Wilman Conde</h1>
-            <span>Meet the warrior behind this portfolio</span>
+            <p>Meet the warrior behind this portfolio</p>
           </div>
           <div className='history'>
             <h2>Guardian of Code</h2>
@@ -28,10 +31,10 @@ const About = () => {
             </p>
           </div>
           <div className='clients'>
-            <span>1 Client</span>
+            <p>1 Client</p>
           </div>
           <div className='experience'>
-            <span>1 Year Experience</span>
+            <p>1 Year Experience</p>
           </div>
         </div>
       </div>

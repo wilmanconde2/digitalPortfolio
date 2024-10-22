@@ -1,7 +1,10 @@
 import { NavLink } from 'react-router-dom';
 import Card from '../components/Card.jsx';
+import useTitulo from '../hooks/useTitulo.jsx';
 
 const Projects = () => {
+  useTitulo('Contact');
+
   return (
     <>
       <div className='projects__container'>
