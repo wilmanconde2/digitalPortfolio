@@ -39,6 +39,9 @@ const resources = {
         cordobaDescription: 'Website under construction',
         repo: 'GitHub Repository',
       },
+      cv: {
+        title: 'Resume',
+      },
     },
   },
   es: {
@@ -77,6 +80,9 @@ const resources = {
         cordobaTitle: 'Colegio Ciudad de Córdoba',
         cordobaDescription: 'Sitio web en construcción',
         repo: 'Repositorio GitHub',
+      },
+      cv: {
+        title: 'Currículum ',
       },
     },
   },

@@ -1,7 +1,7 @@
 .home__container {
   display: grid;
   padding: 10px;
-  padding-top: 4rem;
+  padding-top: 1.5rem;
 
   .container-items1 {
     grid-column: 1/2;
@@ -14,10 +14,6 @@
   }
 
   &__items {
-    .item {
-      margin-bottom: 10px;
-    }
-
     img {
       filter: invert(85%);
       padding: 5px;
@@ -33,4 +29,26 @@
       box-shadow: 0 0 10px rgb(7, 4, 173), 0 0 20px rgb(7, 4, 173);
     }
   }
+}
+
+.item {
+  display: grid;
+  text-align: center;
+}
+
+.item a {
+  text-decoration: none;
+}
+
+.item label {
+  display: block;
+  visibility: hidden;
+  opacity: 0;
+  color: rgba(245, 245, 245, 0.6);
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.item:hover label {
+  visibility: visible;
+  opacity: 1;
 }
