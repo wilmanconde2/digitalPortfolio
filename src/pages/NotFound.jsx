@@ -1,12 +1,10 @@
-import React from 'react'
+import React from 'react';
 import useTitulo from '../hooks/useTitulo';
 
 const NotFound = () => {
-  useTitulo('Not Found');
+  useTitulo('Page not found');
 
-  return (
-    <div>NotFound</div>
-  )
-}
+  return <div>NotFound</div>;
+};
 
-export default NotFound
+export default NotFound;

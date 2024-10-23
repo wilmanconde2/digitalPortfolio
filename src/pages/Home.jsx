@@ -1,14 +1,18 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import useTitulo from '../hooks/useTitulo';
+import { useTranslation } from 'react-i18next';
+import Navbar from '../components/Navbar';
 
 const Home = () => {
-  useTitulo('Home');
+  const { t } = useTranslation();
+  useTitulo(t('home.title'));
 
   return (
     <>
+      <Navbar />
       <div className='home__container'>
-        <div className='home__container__items container-Items1'>
+        <div className='home__container__items container-items1'>
           <div className='item'>
             <NavLink to='/'>
               <img src={'../home.png'} alt='Home address icons created by alihmirza111 - Flaticon' />
@@ -30,7 +34,7 @@ const Home = () => {
             </NavLink>
           </div>
         </div>
-        <div className='home__container__items container-Items2'>
+        <div className='home__container__items container-items2'>
           <div className='item'>
             <a href={'https://github.com/wilmanconde2'} target='_blank' rel='noopener noreferrer'>
               <img src={'../github.png'} alt='Github icons created by -Artist - Flaticon' />
