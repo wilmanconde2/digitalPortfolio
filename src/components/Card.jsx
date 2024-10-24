@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 
-const Card = ({ title, description, link, footer }) => {
+const Card = ({ title, description, link, link2, footer }) => {
   const { t } = useTranslation();
 
   return (
@@ -11,6 +11,9 @@ const Card = ({ title, description, link, footer }) => {
         <p className='card-text'>{t(description)}</p>
         <a href={link} className='btn btn-primary' target='_blank' rel='noopener noreferrer'>
           {t('projects.repo')}
+        </a>
+        <a href={link2} className='btn btn-primary' target='_blank' rel='noopener noreferrer'>
+          {t('projects.netlify')}
         </a>
       </div>
       <div className='card-footer'>{footer}</div>

@@ -13,12 +13,12 @@ export const Navbar = () => {
 
       <div className='english-button'>
         <a onClick={() => changeLanguage('en')}>
-          <img src='/public/english.png' alt='English icons created by afif fudin - Flaticon' />
+          <img src='/english.png' alt='English icons created by afif fudin - Flaticon' />
         </a>
       </div>
       <div className='spanish-button'>
         <a onClick={() => changeLanguage('es')}>
-          <img src='/public/spanish.png' alt='Spanish icons created by Freepik - Flaticon' />
+          <img src='/spanish.png' alt='Spanish icons created by Freepik - Flaticon' />
         </a>
       </div>
     </div>

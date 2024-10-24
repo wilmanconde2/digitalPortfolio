@@ -30,6 +30,10 @@
   justify-content: center;
   align-items: center;
 
+  a{
+    margin-inline: 10px;
+  }
+
   .text-center {
     background-color: transparent;
     backdrop-filter: blur(10px);
