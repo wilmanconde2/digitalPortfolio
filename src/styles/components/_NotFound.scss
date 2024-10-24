@@ -1,0 +1,34 @@
+.home {
+  align-self: flex-start;
+
+  img {
+    filter: invert(85%);
+    position: fixed;
+    z-index: 1000;
+    top: 1rem;
+    left: 1rem;
+    padding: 5px;
+    border-radius: 20%;
+    border: 1px solid greenyellow;
+    max-width: 40px;
+    max-height: 40px;
+    transition: box-shadow 0.3s ease;
+  }
+
+  img:hover {
+    border-color: rgb(7, 4, 173);
+    box-shadow: 0 0 10px rgb(7, 4, 173), 0 0 20px rgb(7, 4, 173);
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+
+  h1 {
+    color: rgba(245, 245, 245, 0.8);
+    justify-self: center;
+    align-self: center;
+  }
+}

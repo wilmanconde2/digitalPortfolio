@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import useTitulo from '../hooks/useTitulo';
 import { useTranslation } from 'react-i18next';
 import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
+import Footer from '../components/Footer.jsx';
 
 const Home = () => {
   const { t } = useTranslation();
