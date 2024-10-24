@@ -4,6 +4,7 @@ import useEmailForm from '../hooks/useEmailForm.jsx';
 import useTitulo from '../hooks/useTitulo.jsx';
 import { useTranslation } from 'react-i18next';
 import Navbar from '../components/Navbar.jsx';
+import Footer from '../components/Footer.jsx';
 
 const Contact = () => {
   const { t } = useTranslation();
@@ -66,6 +67,7 @@ const Contact = () => {
           </form>
         </div>
       </div>
+      <Footer />
     </>
   );
 };

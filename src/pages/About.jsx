@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 import useTitulo from '../hooks/useTitulo';
 import { useTranslation } from 'react-i18next';
 import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 const About = () => {
   const { t } = useTranslation();
@@ -34,6 +35,7 @@ const About = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </>
   );
 };

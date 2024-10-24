@@ -37,7 +37,11 @@ const resources = {
           'This project is a Weather Application built with React, designed to provide users with real-time weather information based on their selected city. It features a clean and interactive user interface with components that enhance usability and functionality.',
         cordobaTitle: 'City Cordoba School',
         cordobaDescription: 'Website under construction',
+        portfolioTitle: 'Digital Portfolio',
+        portfolioDescription:
+          'A clean and modern digital portfolio website. The contact page allows visitors to reach out directly. The projects page showcases various works, each with detailed descriptions. The about page provides a personal and professional background. The website also includes links to LinkedIn, GitHub, X , and an option to download the CV in PDF format.',
         repo: 'GitHub Repository',
+        netlify: 'Project',
       },
       cv: {
         title: 'Resume',
@@ -79,7 +83,11 @@ const resources = {
           'Este proyecto es una aplicación del clima construida con React, diseñada para proporcionar a los usuarios información meteorológica en tiempo real basada en la ciudad que seleccionen. Cuenta con una interfaz de usuario limpia e interactiva, con componentes que mejoran la usabilidad y funcionalidad.',
         cordobaTitle: 'Colegio Ciudad de Córdoba',
         cordobaDescription: 'Sitio web en construcción',
+        portfolioTitle: 'Portfolio Digital',
+        portfolioDescription:
+          'Un portafolio digital moderno y limpio. La página de contacto permite a los visitantes comunicarse directamente. La página de proyectos muestra diversas obras, cada una con descripciones detalladas. La página "Acerca de" ofrece información sobre el perfil personal y profesional. El sitio web también incluye enlaces a LinkedIn, GitHub, X (anteriormente Twitter) y una opción para descargar el CV en formato PDF.',
         repo: 'Repositorio GitHub',
+        netlify: 'Proyecto',
       },
       cv: {
         title: 'Currículum ',

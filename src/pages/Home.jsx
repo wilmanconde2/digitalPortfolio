@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 import useTitulo from '../hooks/useTitulo';
 import { useTranslation } from 'react-i18next';
 import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 const Home = () => {
   const { t } = useTranslation();
@@ -16,7 +17,7 @@ const Home = () => {
           <div className='item'>
             <NavLink to='/'>
               <img src={'../home.png'} alt='Home address icons created by alihmirza111 - Flaticon' />
-              <label>{t('home.title')}</label>  
+              <label>{t('home.title')}</label>
             </NavLink>
           </div>
           <div className='item'>
@@ -74,6 +75,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 };
