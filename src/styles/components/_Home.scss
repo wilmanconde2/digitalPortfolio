@@ -42,13 +42,20 @@
 
 .item label {
   display: block;
-  visibility: hidden;
-  opacity: 0;
   color: rgba(245, 245, 245, 0.6);
   transition: opacity 0.3s ease, visibility 0.3s ease;
 }
 
-.item:hover label {
-  visibility: visible;
-  opacity: 1;
+// ! BREAKPOINT
+
+@media (min-width: 576px) {
+  .item label {
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  .item:hover label {
+    visibility: visible;
+    opacity: 1;
+  }
 }
