@@ -42,6 +42,7 @@
 
 .item label {
   display: block;
+  margin-block: 5px;
   color: rgba(7, 4, 173, 0.7);
   border: 1px solid transparent;
   border-radius: 20px;
@@ -53,6 +54,7 @@
 
 @media (min-width: 576px) {
   .item label {
+    color: rgba(245, 245, 245, 0.6);
     visibility: hidden;
     opacity: 0;
   }
