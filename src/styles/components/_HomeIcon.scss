@@ -1,0 +1,23 @@
+.home {
+  align-self: flex-start;
+
+  img {
+    position: fixed;
+    z-index: 1000;
+    top: 1rem;
+    left: 1rem;
+    padding: 5px;
+    border-radius: 20%;
+    max-width: 40px;
+    max-height: 40px;
+    transition: box-shadow 0.3s ease;
+    border: 1px solid #006090;
+    box-shadow: 0 0 3px #006090, 0 0 8px #006090;
+    background-color: rgba(255, 255, 255, 0.3);
+    
+    &:hover {
+      border-color: rgb(7, 4, 173);
+      box-shadow: 0 0 10px rgb(7, 4, 173), 0 0 20px rgb(7, 4, 173);
+    }
+  }
+}

@@ -1,17 +1,13 @@
 import useTitulo from '../hooks/useTitulo';
 import Footer from '../components/Footer.jsx';
-import { NavLink } from 'react-router-dom';
+import HomeIcon from '../components/HomeIcon.jsx';
 
 const NotFound = () => {
   useTitulo('Page not found');
 
   return (
     <>
-      <div className='home'>
-        <NavLink to='/'>
-          <img src={'/home.png'} alt='homeIcon' />
-        </NavLink>
-      </div>
+      <HomeIcon />
       <div className='container'>
         <h1>Page doesn't exist!</h1>
       </div>

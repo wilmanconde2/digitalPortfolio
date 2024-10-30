@@ -1,10 +1,9 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
-import useEmailForm from '../hooks/useEmailForm.jsx';
-import useTitulo from '../hooks/useTitulo.jsx';
 import { useTranslation } from 'react-i18next';
+import useTitulo from '../hooks/useTitulo';
+import useEmailForm from '../hooks/useEmailForm.jsx';
 import Navbar from '../components/Navbar.jsx';
 import Footer from '../components/Footer.jsx';
+import HomeIcon from '../components/HomeIcon.jsx';
 
 const Contact = () => {
   const { t } = useTranslation();
@@ -17,16 +16,11 @@ const Contact = () => {
       <Navbar />
       <div className='contact-page'>
         <div className='contact__container'>
-          <div className='home'>
-            <NavLink to='/'>
-              <img src={'/home.png'} alt='homeIcon' />
-            </NavLink>
-          </div>
+          <HomeIcon />
           <div className='contact__container__info'>
             <h2>{t('contact.subtitle')}</h2>
             <p>{t('contact.history')}</p>
           </div>
-
           <form onSubmit={sendEmail} className='mb-3 form__container'>
             {error && <p style={{ color: 'red' }}>{error}</p>}
             <label htmlFor='name' className='form-label'>

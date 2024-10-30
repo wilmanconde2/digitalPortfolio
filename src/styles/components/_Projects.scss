@@ -6,23 +6,6 @@
   min-height: 100vh;
 }
 
-.home {
-  align-self: flex-start;
-
-  img {
-    filter: invert(85%);
-    position: fixed;
-    z-index: 1000;
-    top: 1rem;
-    left: 1rem;
-    padding: 5px;
-    border-radius: 20%;
-    border: 1px solid greenyellow;
-    max-width: 40px;
-    max-height: 40px;
-  }
-}
-
 .projects__container__items {
   margin: 2rem;
   display: flex;

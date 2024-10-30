@@ -1,11 +1,12 @@
-import React from 'react';
 import { NavLink } from 'react-router-dom';
-import useTitulo from '../hooks/useTitulo';
 import { useTranslation } from 'react-i18next';
+import useTitulo from '../hooks/useTitulo';
+import useIsMobile from '../hooks/useIsMobile';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer.jsx';
 
 const Home = () => {
+  const isMobile = useIsMobile();
   const { t } = useTranslation();
   useTitulo(t('home.title'));
 
@@ -16,25 +17,37 @@ const Home = () => {
         <div className='home__container__items container-items1'>
           <div className='item'>
             <NavLink to='/'>
-              <img src={'../home.png'} alt='Home address icons created by alihmirza111 - Flaticon' />
+              <img
+                src={isMobile ? '/homeBlue.png' : '/homeWhite.png'}
+                alt='Home address icons created by alihmirza111 - Flaticon'
+              />
               <label>{t('home.title')}</label>
             </NavLink>
           </div>
           <div className='item'>
             <NavLink to='/about'>
-              <img src={'../user.png'} alt='User icons created by Freepik - Flaticon' />
+              <img
+                src={isMobile ? '/userBlue.png' : '/userWhite.png'}
+                alt='User icons created by Freepik - Flaticon'
+              />
               <label>{t('about.title')}</label>
             </NavLink>
           </div>
           <div className='item'>
             <NavLink to='/projects'>
-              <img src={'../projects.png'} alt='Project icons created by dDara - Flaticon' />
+              <img
+                src={isMobile ? '/projectsBlue.png' : '/projectsWhite.png'}
+                alt='Project icons created by dDara - Flaticon'
+              />
               <label>{t('projects.title')}</label>
             </NavLink>
           </div>
           <div className='item'>
             <NavLink to='/contact'>
-              <img src={'../contact.png'} alt='Contact icons created by Cuputo - Flaticon' />
+              <img
+                src={isMobile ? '/contactBlue.png' : '/contactWhite.png'}
+                alt='Contact icons created by Cuputo - Flaticon'
+              />
               <label>{t('contact.title')}</label>
             </NavLink>
           </div>
@@ -42,7 +55,10 @@ const Home = () => {
         <div className='home__container__items container-items2'>
           <div className='item'>
             <a href={'https://github.com/wilmanconde2'} target='_blank' rel='noopener noreferrer'>
-              <img src={'../github.png'} alt='Github icons created by -Artist - Flaticon' />
+              <img
+                src={isMobile ? '/githubBlue.png' : '/githubWhite.png'}
+                alt='Github icons created by -Artist - Flaticon'
+              />
               <label>GitHub</label>
             </a>
           </div>
@@ -52,24 +68,35 @@ const Home = () => {
               target='_blank'
               rel='noopener noreferrer'
             >
-              <img src={'../linkedin.png'} alt='Linkedin icons created by Smashicons - Flaticon' />
+              <img
+                src={isMobile ? '/linkedinBlue.png' : '/linkedinWhite.png'}
+                alt='Linkedin icons created by Smashicons - Flaticon'
+              />
               <label>LinkedIn</label>
             </a>
           </div>
           <div className='item'>
             <a href={'https://x.com/WilmanConde1982'} target='_blank' rel='noopener noreferrer'>
-              <img src={'../x.png'} alt='Tweet icons created by Freepik - Flaticon' />
+              <img
+                src={isMobile ? '/xBlue.png' : '/xWhite.png'}
+                alt='Tweet icons created by Freepik - Flaticon'
+              />
               <label>X</label>
             </a>
           </div>
           <div className='item'>
             <a></a>
             <a
-              href={'https://drive.google.com/file/d/1-BUjK1gPM33Ggu-xrK2GfTirJR7r07nz/view?usp=sharing'}
+              href={
+                'https://drive.google.com/file/d/1-BUjK1gPM33Ggu-xrK2GfTirJR7r07nz/view?usp=sharing'
+              }
               target='_blank'
               rel='noopener noreferrer'
             >
-              <img src={'../resume.png'} alt='Portfolio icons created by Freepik - Flaticon' />
+              <img
+                src={isMobile ? '/resumeBlue.png' : '/homeWhite.png'}
+                alt='Portfolio icons created by Freepik - Flaticon'
+              />
               <label>{t('cv.title')}</label>
             </a>
           </div>

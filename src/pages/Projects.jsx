@@ -1,9 +1,9 @@
-import { NavLink } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import Card from '../components/Card.jsx';
 import useTitulo from '../hooks/useTitulo.jsx';
-import { useTranslation } from 'react-i18next';
 import Navbar from '../components/Navbar.jsx';
 import Footer from '../components/Footer.jsx';
+import HomeIcon from '../components/HomeIcon.jsx';
 
 const Projects = () => {
   const { t } = useTranslation();
@@ -13,11 +13,7 @@ const Projects = () => {
     <>
       <Navbar />
       <div className='projects__container'>
-        <div className='home'>
-          <NavLink to='/'>
-            <img src={'/home.png'} alt='homeIcon' />
-          </NavLink>
-        </div>
+        <HomeIcon />
         <div className='projects__container__items'>
           <Card
             title='projects.bootcampTitle'

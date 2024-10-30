@@ -1,9 +1,8 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
-import useTitulo from '../hooks/useTitulo';
 import { useTranslation } from 'react-i18next';
+import useTitulo from '../hooks/useTitulo';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer.jsx';
+import HomeIcon from '../components/HomeIcon.jsx';
 
 const About = () => {
   const { t } = useTranslation();
@@ -14,11 +13,7 @@ const About = () => {
       <Navbar />
       <div className='about-page'>
         <div className='about__container'>
-          <div className='home'>
-            <NavLink to='/'>
-              <img src={'/home.png'} alt='homeIcon' />
-            </NavLink>
-          </div>
+          <HomeIcon />
           <div className='name'>
             <h1>Wilman Conde</h1>
             <p>{t('about.description')}</p>
