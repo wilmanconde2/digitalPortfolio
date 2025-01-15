@@ -88,7 +88,7 @@ const Home = () => {
             <a></a>
             <a
               href={
-                'https://drive.google.com/file/d/1-BUjK1gPM33Ggu-xrK2GfTirJR7r07nz/view?usp=sharing'
+                'https://drive.google.com/file/d/13gQD7yhD3VGbG0TBNWVvJeBGzKoE6szA/view?usp=drive_link'
               }
               target='_blank'
               rel='noopener noreferrer'
