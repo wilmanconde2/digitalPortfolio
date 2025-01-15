@@ -64,7 +64,7 @@ const Home = () => {
           </div>
           <div className='item'>
             <a
-              href={'https://www.linkedin.com/in/wilman-conde/?originalSubdomain=co'}
+              href={'https://www.linkedin.com/in/wilman-conde/'}
               target='_blank'
               rel='noopener noreferrer'
             >
