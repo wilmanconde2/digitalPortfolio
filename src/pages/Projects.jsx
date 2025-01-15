@@ -40,7 +40,14 @@ const Projects = () => {
             title='projects.cordobaTitle'
             description='projects.cordobaDescription'
             link='#'
-            footer='October 2024'
+            footer='Processing'
+          />
+          <Card
+            title='projects.polindromeTitle'
+            description='projects.polindromeDescription'
+            link='https://github.com/wilmanconde2/palindromes'
+            link2='https://palindromes-app.netlify.app/'
+            footer='January 2025'
           />
         </div>
       </div>

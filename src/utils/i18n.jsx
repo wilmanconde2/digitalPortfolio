@@ -40,6 +40,9 @@ const resources = {
         portfolioTitle: 'Digital Portfolio',
         portfolioDescription:
           'A clean and modern digital portfolio website. The contact page allows visitors to reach out directly. The projects page showcases various works, each with detailed descriptions. The about page provides a personal and professional background. The website also includes links to LinkedIn, GitHub, X , and an option to download the CV in PDF format.',
+        polindromeTitle: 'Polindromes',
+        polindromeDescription:
+          'This project is an application built with React, designed to help users easily check if a word or phrase is a palindrome. It features a clean and interactive interface with real-time feedback and intuitive functionality to enhance the user experience.',
         repo: 'GitHub Repository',
         netlify: 'Project',
       },
@@ -86,6 +89,9 @@ const resources = {
         portfolioTitle: 'Portfolio Digital',
         portfolioDescription:
           'Un portafolio digital moderno y limpio. La página de contacto permite a los visitantes comunicarse directamente. La página de proyectos muestra diversas obras, cada una con descripciones detalladas. La página "Acerca de" ofrece información sobre el perfil personal y profesional. El sitio web también incluye enlaces a LinkedIn, GitHub, X (anteriormente Twitter) y una opción para descargar el CV en formato PDF.',
+          polindromeTitle: 'Palíndromos',
+        polindromeDescription:
+          'Este proyecto es una aplicación construida con React, diseñada para ayudar a los usuarios a verificar fácilmente si una palabra o frase es un palíndromo. Cuenta con una interfaz limpia e interactiva, retroalimentación en tiempo real y una funcionalidad intuitiva para mejorar la experiencia del usuario.',
         repo: 'Repositorio GitHub',
         netlify: 'Proyecto',
       },
