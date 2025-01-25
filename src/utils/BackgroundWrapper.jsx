@@ -6,14 +6,14 @@ const BackgroundWrapper = ({ children }) => {
   const getBackgroundImage = () => {
     switch (location.pathname) {
       case '/about':
-        return 'url(/endless-constellation.svg)';
+        return 'url(/confetti.svg)';
       case '/contact':
-        return 'url(/endless-constellation.svg)';
+        return 'url(/confetti.svg)';
       case '/projects':
-        return 'url(/endless-constellation.svg)';
+        return 'url(/confetti.svg)';
       case '/':
       default:
-        return 'url(/endless-constellation.svg)';
+        return 'url(/confetti.svg)';
     }
   };
 
