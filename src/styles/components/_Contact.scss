@@ -81,11 +81,12 @@
     }
 
     button {
-      background-color: transparent;
+      background-color: rgb(7, 4, 173);
       border-radius: 15px;
       border: 1px solid rgb(7, 4, 173);
       backdrop-filter: blur(40px);
       transition: box-shadow 0.3s ease;
+      color: #fefe5b;
     }
 
     button:hover {
