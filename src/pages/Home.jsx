@@ -15,37 +15,37 @@ const Home = () => {
       <Navbar />
       <div className='home__container'>
         <div className='home__container__items container-items1'>
-          <div className='item'>
+          <div className='item' id='home'>
             <NavLink to='/'>
               <img
-                src={isMobile ? '/homeBlue.png' : '/homeWhite.png'}
+                src={isMobile ? '/homeWhite.png' : '/homeWhite.png'}
                 alt='Home address icons created by alihmirza111 - Flaticon'
               />
               <label>{t('home.title')}</label>
             </NavLink>
           </div>
-          <div className='item'>
+          <div className='item' id='about'>
             <NavLink to='/about'>
               <img
-                src={isMobile ? '/userBlue.png' : '/userWhite.png'}
+                src={isMobile ? '/userWhite.png' : '/userWhite.png'}
                 alt='User icons created by Freepik - Flaticon'
               />
               <label>{t('about.title')}</label>
             </NavLink>
           </div>
-          <div className='item'>
+          <div className='item' id='projects'>
             <NavLink to='/projects'>
               <img
-                src={isMobile ? '/projectsBlue.png' : '/projectsWhite.png'}
+                src={isMobile ? '/projectsWhite.png' : '/projectsWhite.png'}
                 alt='Project icons created by dDara - Flaticon'
               />
               <label>{t('projects.title')}</label>
             </NavLink>
           </div>
-          <div className='item'>
+          <div className='item' id='contact'>
             <NavLink to='/contact'>
-              <img
-                src={isMobile ? '/contactBlue.png' : '/contactWhite.png'}
+              <img 
+                src={isMobile ? '/contactWhite.png' : '/contactWhite.png'}
                 alt='Contact icons created by Cuputo - Flaticon'
               />
               <label>{t('contact.title')}</label>
@@ -53,38 +53,38 @@ const Home = () => {
           </div>
         </div>
         <div className='home__container__items container-items2'>
-          <div className='item'>
+          <div className='item' id='github'>
             <a href={'https://github.com/wilmanconde2'} target='_blank' rel='noopener noreferrer'>
-              <img
-                src={isMobile ? '/githubBlue.png' : '/githubWhite.png'}
+              <img 
+                src={isMobile ? '/githubWhite.png' : '/githubWhite.png'}
                 alt='Github icons created by -Artist - Flaticon'
               />
               <label>GitHub</label>
             </a>
           </div>
-          <div className='item'>
+          <div className='item' id='linkedin'>
             <a
               href={'https://www.linkedin.com/in/wilman-conde/'}
               target='_blank'
               rel='noopener noreferrer'
             >
-              <img
-                src={isMobile ? '/linkedinBlue.png' : '/linkedinWhite.png'}
+              <img 
+                src={isMobile ? '/linkedinWhite.png' : '/linkedinWhite.png'}
                 alt='Linkedin icons created by Smashicons - Flaticon'
               />
               <label>LinkedIn</label>
             </a>
           </div>
-          <div className='item'>
+          <div className='item' id='x'>
             <a href={'https://x.com/WilmanConde1982'} target='_blank' rel='noopener noreferrer'>
-              <img
-                src={isMobile ? '/xBlue.png' : '/xWhite.png'}
+              <img 
+                src={isMobile ? '/xWhite.png' : '/xWhite.png'}
                 alt='Tweet icons created by Freepik - Flaticon'
               />
               <label>X</label>
             </a>
           </div>
-          <div className='item'>
+          <div className='item' id='cv'>
             <a></a>
             <a
               href={
@@ -93,8 +93,8 @@ const Home = () => {
               target='_blank'
               rel='noopener noreferrer'
             >
-              <img
-                src={isMobile ? '/resumeBlue.png' : '/homeWhite.png'}
+              <img 
+                src={isMobile ? '/resumeWhite.png' : '/resumeWhite.png'}
                 alt='Portfolio icons created by Freepik - Flaticon'
               />
               <label>{t('cv.title')}</label>

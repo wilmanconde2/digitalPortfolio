@@ -17,7 +17,7 @@ export const Navbar = () => {
           <a onClick={() => changeLanguage('en')}>
             <img
               className='english'
-              src={isMobile ? '/englishBlue.png' : '/englishWhite.png'}
+              src={isMobile ? '/englishWhite.png' : '/englishWhite.png'}
               alt='English icons created by afif fudin - Flaticon'
             />
           </a>
@@ -26,7 +26,7 @@ export const Navbar = () => {
           <a onClick={() => changeLanguage('es')}>
             <img
               className='spanish'
-              src={isMobile ? '/spanishBlue.png' : '/spanishWhite.png'}
+              src={isMobile ? '/spanishWhite.png' : '/spanishWhite.png'}
               alt='Spanish icons created by Freepik - Flaticon'
             />
           </a>

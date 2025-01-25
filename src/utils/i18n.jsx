@@ -9,22 +9,22 @@ const resources = {
       },
       about: {
         title: 'About',
-        description: 'Meet the warrior behind this portfolio',
-        subtitle: 'Guardian of Code',
+        description: 'Discover the developer behind this portfolio.',
+        subtitle: 'Web Developer Junior',
         history:
-          '  My journey in web development is fueled by the raw power of the tools and languages I master, with JavaScript as the energy I harness in every challenge. I push frameworks like React.js and Next.js to their peak, building powerful, resilient sites that serve as strongholds for users in the digital world. The principles of the Jamstack help me create fast, secure, and dynamic experiences, while my design instincts ensure that each project is a balanced fusion of functionality and craftsmanship. Join me as I continue to face new challenges, evolving with each one, shaping the future of the web like a true warrior.',
+          'My journey in web development is driven by a deep mastery of the tools and languages I use, with JavaScript at the core of my approach to tackling complex challenges. I leverage frameworks such as React.js and Next.js to build high-performance, scalable websites that deliver seamless user experiences. Guided by the principles of the Jamstack, I create fast, secure, and dynamic applications, while maintaining a keen focus on balancing functionality and design. I am continuously evolving my skills to meet new challenges and contribute to the advancement of web development.',
         clients: '1 client',
         experience: '1 Year Experience',
       },
       contact: {
         title: 'Contact',
-        subtitle: 'Summon the warrior!',
+        subtitle: 'Contact me!',
         history:
-          'Step into the battlefield of innovation, where your words hold the power to initiate change and create new alliances. Whether you´re seeking to forge partnerships or share tales of your victories, your messages are like sacred scrolls in this domain.',
+          "Enter the world of innovation, where your ideas drive change and foster collaboration. Whether you're building connections or showcasing your successes, your communication is key.",
         name: 'name',
         email: 'email',
         message: 'message',
-        submit: 'Unleash Your Message!',
+        submit: 'Send your message',
       },
       projects: {
         title: 'Projects',
@@ -58,22 +58,22 @@ const resources = {
       },
       about: {
         title: 'Acerca de',
-        description: 'Conoce al guerrero detrás de este portafolio',
-        subtitle: 'Guardián del Código',
+        description: 'Descubre al desarrollador detrás de este portafolio.',
+        subtitle: 'Desarrollador Web Junior',
         history:
-          'Mi viaje en el desarrollo web está impulsado por el poder puro de las herramientas y lenguajes que domino, con JavaScript como la energía que aprovecho en cada desafío. Llevo frameworks como React.js y Next.js a su máximo potencial, construyendo sitios poderosos y resistentes que sirven como fortalezas para los usuarios en el mundo digital. Los principios de Jamstack me permiten crear experiencias rápidas, seguras y dinámicas, mientras que mi instinto de diseño garantiza que cada proyecto sea una fusión equilibrada de funcionalidad y artesanía. Únete a mí mientras sigo enfrentando nuevos desafíos, evolucionando con cada uno y moldeando el futuro de la web como un verdadero guerrero.',
+          'Mi trayectoria en el desarrollo web está impulsada por un profundo dominio de las herramientas y lenguajes que utilizo, con JavaScript en el núcleo de mi enfoque para resolver desafíos complejos. Aprovecho frameworks como React.js y Next.js para construir sitios web de alto rendimiento y escalables que ofrecen experiencias de usuario fluidas. Guiado por los principios de Jamstack, creo aplicaciones rápidas, seguras y dinámicas, manteniendo un enfoque constante en equilibrar funcionalidad y diseño. Estoy en constante evolución de mis habilidades para enfrentar nuevos retos y contribuir al avance del desarrollo web.',
         clients: '1 Cliente',
         experience: '1 Año de Experiencia',
       },
       contact: {
         title: 'Contacto',
-        subtitle: '¡Invoca al guerrero!',
+        subtitle: 'Contáctame!',
         history:
-          '¡Adéntrate en el campo de batalla de la innovación, donde tus palabras tienen el poder de iniciar cambios y crear nuevas alianzas! Ya sea que busques forjar asociaciones o compartir historias de tus victorias, tus mensajes son como pergaminos sagrados en este dominio.',
+          'Ingresa al mundo de la innovación, donde tus ideas impulsan el cambio y fomentan la colaboración. Ya sea que estés construyendo relaciones o compartiendo tus logros, tu comunicación es clave.',
         name: 'nombre',
         email: 'correo',
         message: 'mensaje',
-        submit: '¡Desata tu mensaje!',
+        submit: 'Envía tu mensaje!',
       },
       projects: {
         title: 'Proyectos',

@@ -8,7 +8,7 @@ const HomeIcon = () => {
     <>
       <div className='home'>
         <NavLink to='/'>
-          <img src={isMobile ? '/homeBlue.png' : '/homeWhite.png'} alt='homeIcon' />
+          <img src={isMobile ? '/homeWhite.png' : '/homeWhite.png'} alt='homeIcon' />
         </NavLink>
       </div>
     </>

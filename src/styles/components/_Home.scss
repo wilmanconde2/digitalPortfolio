@@ -44,19 +44,62 @@
 .item label {
   display: block;
   margin-block: 5px;
-  color: rgba(7, 4, 173, 0.7);
-  color: #006090;
+  color: whitesmoke;
   border: 1px solid transparent;
   border-radius: 20px;
-  backdrop-filter: blur(10px);
-  background-color: rgba(255, 255, 255, 0.3);
-  padding-inline: 3px;
   transition: opacity 0.3s ease, visibility 0.3s ease;
 }
 
 // ! BREAKPOINT
 
 @media (min-width: 576px) {
+  .home__container {
+    max-width: 70%;
+    margin: auto;
+  }
+
+  .container-items1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+
+    #home {
+      grid-column: 3/5;
+    }
+    #about {
+      grid-column: 2/4;
+    }
+    #projects {
+      grid-column: 3/3;
+    }
+    #contact {
+      grid-column: 4/4;
+      grid-row: 4;
+    }
+  }
+  .container-items2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+
+    #github {
+      grid-column: 1/2;
+    }
+    #linkedin {
+      grid-column: 1/4;
+    }
+    #x {
+      grid-column: 3/4;
+      grid-row: 3;
+    }
+    #cv {
+      grid-column: 2/3;
+      grid-row: 4;
+    }
+  }
+
   .item label {
     color: rgba(245, 245, 245, 0.6);
     visibility: hidden;

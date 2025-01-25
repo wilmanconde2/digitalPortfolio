@@ -6,14 +6,14 @@ const BackgroundWrapper = ({ children }) => {
   const getBackgroundImage = () => {
     switch (location.pathname) {
       case '/about':
-        return 'url(/goku3dEyes.jpg)';
+        return 'url(/blueBlackBackground.svg)';
       case '/contact':
-        return 'url(/goku3dEyes.jpg)';
+        return 'url(/blueBlackBackground.svg)';
       case '/projects':
-        return 'url(/goku3dEyes.jpg)';
+        return 'url(/blueBlackBackground.svg)';
       case '/':
       default:
-        return 'url(/goku3dEyes.jpg)';
+        return 'url(/blueBlackBackground.svg)';
     }
   };
 
