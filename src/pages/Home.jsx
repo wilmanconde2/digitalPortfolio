@@ -18,7 +18,7 @@ const Home = () => {
           <div className='item' id='home'>
             <NavLink to='/'>
               <img
-                src={isMobile ? '/homeWhite.png' : '/homeWhite.png'}
+                src={isMobile ? '/homeBlue.png' : '/homeBlue.png'}
                 alt='Home address icons created by alihmirza111 - Flaticon'
               />
               <label>{t('home.title')}</label>
@@ -27,7 +27,7 @@ const Home = () => {
           <div className='item' id='about'>
             <NavLink to='/about'>
               <img
-                src={isMobile ? '/userWhite.png' : '/userWhite.png'}
+                src={isMobile ? '/userBlue.png' : '/userBlue.png'}
                 alt='User icons created by Freepik - Flaticon'
               />
               <label>{t('about.title')}</label>
@@ -36,7 +36,7 @@ const Home = () => {
           <div className='item' id='projects'>
             <NavLink to='/projects'>
               <img
-                src={isMobile ? '/projectsWhite.png' : '/projectsWhite.png'}
+                src={isMobile ? '/projectsBlue.png' : '/projectsBlue.png'}
                 alt='Project icons created by dDara - Flaticon'
               />
               <label>{t('projects.title')}</label>
@@ -45,7 +45,7 @@ const Home = () => {
           <div className='item' id='contact'>
             <NavLink to='/contact'>
               <img 
-                src={isMobile ? '/contactWhite.png' : '/contactWhite.png'}
+                src={isMobile ? '/contactBlue.png' : '/contactBlue.png'}
                 alt='Contact icons created by Cuputo - Flaticon'
               />
               <label>{t('contact.title')}</label>
@@ -56,7 +56,7 @@ const Home = () => {
           <div className='item' id='github'>
             <a href={'https://github.com/wilmanconde2'} target='_blank' rel='noopener noreferrer'>
               <img 
-                src={isMobile ? '/githubWhite.png' : '/githubWhite.png'}
+                src={isMobile ? '/githubBlue.png' : '/githubBlue.png'}
                 alt='Github icons created by -Artist - Flaticon'
               />
               <label>GitHub</label>
@@ -69,7 +69,7 @@ const Home = () => {
               rel='noopener noreferrer'
             >
               <img 
-                src={isMobile ? '/linkedinWhite.png' : '/linkedinWhite.png'}
+                src={isMobile ? '/linkedinBlue.png' : '/linkedinBlue.png'}
                 alt='Linkedin icons created by Smashicons - Flaticon'
               />
               <label>LinkedIn</label>
@@ -78,7 +78,7 @@ const Home = () => {
           <div className='item' id='x'>
             <a href={'https://x.com/WilmanConde1982'} target='_blank' rel='noopener noreferrer'>
               <img 
-                src={isMobile ? '/xWhite.png' : '/xWhite.png'}
+                src={isMobile ? '/xBlue.png' : '/xBlue.png'}
                 alt='Tweet icons created by Freepik - Flaticon'
               />
               <label>X</label>
@@ -94,7 +94,7 @@ const Home = () => {
               rel='noopener noreferrer'
             >
               <img 
-                src={isMobile ? '/resumeWhite.png' : '/resumeWhite.png'}
+                src={isMobile ? '/resumeBlue.png' : '/resumeBlue.png'}
                 alt='Portfolio icons created by Freepik - Flaticon'
               />
               <label>{t('cv.title')}</label>

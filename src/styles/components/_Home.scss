@@ -1,5 +1,5 @@
 .home__container {
-  margin-top: 45%;
+  margin-top: 100%;
   margin-inline: 1rem;
   display: grid;
   padding: 10px;
@@ -46,7 +46,7 @@
 .item label {
   display: block;
   margin-block: 5px;
-  color: whitesmoke;
+  color: rgb(7, 4, 173);
   border: 1px solid transparent;
   border-radius: 20px;
   transition: opacity 0.3s ease, visibility 0.3s ease;
@@ -103,7 +103,7 @@
   }
 
   .item label {
-    color: rgba(245, 245, 245, 0.6);
+    color: rgb(7, 4, 173);
     visibility: hidden;
     opacity: 0;
   }
