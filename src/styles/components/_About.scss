@@ -22,18 +22,16 @@
   h2,
   p {
     display: inline-block;
-    border-radius: 15px;
-    border: 1px solid rgb(7, 4, 173);
-    backdrop-filter: blur(10px);
-    transition: box-shadow 0.3s ease;
     padding: 10px;
   }
 
   h1:hover,
-  h2:hover,
-  p:hover {
+  h2:hover {
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
     border-color: rgb(7, 4, 173);
     box-shadow: 0 0 10px rgb(7, 4, 173), 0 0 20px rgb(7, 4, 173);
+    transition: box-shadow 0.3s ease;
   }
   .about__container {
     width: 80%;
@@ -43,7 +41,7 @@
   .history,
   .clients,
   .experience {
-    color: whitesmoke;
+    color: rgb(7, 4, 173);
     padding: 0;
     margin: 0;
     text-align: center;
@@ -52,7 +50,7 @@
 
   .clients,
   .experience {
-    color: #fefe5b;
+    color: rgb(7, 4, 173);
     font-size: 1.5rem;
   }
 

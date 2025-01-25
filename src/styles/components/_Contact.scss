@@ -20,16 +20,8 @@
     p {
       display: inline-block;
       border-radius: 15px;
-      border: 1px solid rgb(7, 4, 173);
-      backdrop-filter: blur(10px);
       transition: box-shadow 0.3s ease;
       padding: 10px;
-    }
-
-    h2:hover,
-    p:hover {
-      border-color: rgb(7, 4, 173);
-      box-shadow: 0 0 10px rgb(7, 4, 173), 0 0 20px rgb(7, 4, 173);
     }
 
     h2 {

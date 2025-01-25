@@ -25,16 +25,24 @@
 
   .text-center {
     max-width: 90%;
-    color: whitesmoke;
+    color: rgb(7, 4, 173);
     border-radius: 10px;
     border: 1px solid rgb(7, 4, 173);
     backdrop-filter: blur(10px);
-    transition: box-shadow 0.3s ease;
+    transition: box-shadow 0.3s ease;;
 
     .card-title {
       color: #fefe5b;
       font-size: 1.5rem;
     }
+
+    .card-footer,
+    .card-text {
+      color: rgb(7, 4, 173);
+    }
+    .card-footer,
+    .card-header {
+font-variant: small-caps;    }
   }
 
   .text-center:hover {
