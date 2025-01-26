@@ -43,8 +43,11 @@ const resources = {
         polindromeTitle: 'Polindromes',
         polindromeDescription:
           'This project is an application built with React, designed to help users easily check if a word or phrase is a palindrome. It features a clean and interactive interface with real-time feedback and intuitive functionality to enhance the user experience.',
+        toDoListTitle: 'To-Do List',
+        toDoListDescription:
+          'This is a simple, interactive To-Do List application built with React. It allows users to add, delete, and update tasks, while also storing their tasks locally in the browser for persistence across sessions. Additionally, users can toggle between light and dark modes, and the current date and time are displayed in the header.',
         repo: 'GitHub Repository',
-        netlify: 'Project',
+        netlify: 'Website',
       },
       cv: {
         title: 'Resume',
@@ -89,11 +92,14 @@ const resources = {
         portfolioTitle: 'Portfolio Digital',
         portfolioDescription:
           'Un portafolio digital moderno y limpio. La página de contacto permite a los visitantes comunicarse directamente. La página de proyectos muestra diversas obras, cada una con descripciones detalladas. La página "Acerca de" ofrece información sobre el perfil personal y profesional. El sitio web también incluye enlaces a LinkedIn, GitHub, X (anteriormente Twitter) y una opción para descargar el CV en formato PDF.',
+        toDoListTitle: 'Lista de tareas',
+        toDoListDescription:
+          'Esta es una aplicación de lista de tareas sencilla e interactiva construida con React. Permite a los usuarios agregar, eliminar y actualizar tareas, mientras almacena las tareas localmente en el navegador para su persistencia entre sesiones. Además, los usuarios pueden alternar entre los modos claro y oscuro, y la fecha y hora actuales se muestran en el encabezado.',
           polindromeTitle: 'Palíndromos',
         polindromeDescription:
           'Este proyecto es una aplicación construida con React, diseñada para ayudar a los usuarios a verificar fácilmente si una palabra o frase es un palíndromo. Cuenta con una interfaz limpia e interactiva, retroalimentación en tiempo real y una funcionalidad intuitiva para mejorar la experiencia del usuario.',
         repo: 'Repositorio GitHub',
-        netlify: 'Proyecto',
+        netlify: 'Website',
       },
       cv: {
         title: 'Currículum ',

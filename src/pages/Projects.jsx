@@ -49,6 +49,13 @@ const Projects = () => {
             link2='https://palindromes-app.netlify.app/'
             footer='January 2025'
           />
+          <Card
+            title='projects.toDoListTitle'
+            description='projects.toDoListDescription'
+            link='https://github.com/wilmanconde2/ToDoList'
+            link2='https://todolist-app-wc.netlify.app/'
+            footer='January 2025'
+          />
         </div>
       </div>
       <Footer />
