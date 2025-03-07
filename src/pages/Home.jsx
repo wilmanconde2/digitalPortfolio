@@ -44,7 +44,7 @@ const Home = () => {
           </div>
           <div className='item' id='contact'>
             <NavLink to='/contact'>
-              <img 
+              <img
                 src={isMobile ? '/contactBlue.png' : '/contactBlue.png'}
                 alt='Contact icons created by Cuputo - Flaticon'
               />
@@ -55,7 +55,7 @@ const Home = () => {
         <div className='home__container__items container-items2'>
           <div className='item' id='github'>
             <a href={'https://github.com/wilmanconde2'} target='_blank' rel='noopener noreferrer'>
-              <img 
+              <img
                 src={isMobile ? '/githubBlue.png' : '/githubBlue.png'}
                 alt='Github icons created by -Artist - Flaticon'
               />
@@ -68,7 +68,7 @@ const Home = () => {
               target='_blank'
               rel='noopener noreferrer'
             >
-              <img 
+              <img
                 src={isMobile ? '/linkedinBlue.png' : '/linkedinBlue.png'}
                 alt='Linkedin icons created by Smashicons - Flaticon'
               />
@@ -77,7 +77,7 @@ const Home = () => {
           </div>
           <div className='item' id='x'>
             <a href={'https://x.com/WilmanConde1982'} target='_blank' rel='noopener noreferrer'>
-              <img 
+              <img
                 src={isMobile ? '/xBlue.png' : '/xBlue.png'}
                 alt='Tweet icons created by Freepik - Flaticon'
               />
@@ -88,12 +88,12 @@ const Home = () => {
             <a></a>
             <a
               href={
-                'https://drive.google.com/file/d/13gQD7yhD3VGbG0TBNWVvJeBGzKoE6szA/view?usp=drive_link'
+                'https://drive.google.com/file/d/1IxZRqCVIX8r76eflSrBpQ2vm2-nNyJV2/view?usp=sharing'
               }
               target='_blank'
               rel='noopener noreferrer'
             >
-              <img 
+              <img
                 src={isMobile ? '/resumeBlue.png' : '/resumeBlue.png'}
                 alt='Portfolio icons created by Freepik - Flaticon'
               />
