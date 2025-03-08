@@ -1,33 +1,24 @@
 .button-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 0.3rem;
+  display: flex;
+  justify-content: flex-end;
   padding: 1rem 1rem 0 0;
-  justify-items: end;
-  justify-content: center;
 
-  .english-button {
-    grid-column: 5/6;
-  }
-  .spanish-button {
-    grid-column: 6/6;
-  }
-  .english-button,
-  .spanish-button {
-    img {
+  .language-icon {
       padding: 5px;
       border-radius: 20%;
-      max-width: 35px;
-      max-height: 35px;
-      transition: box-shadow 0.3s ease;
+      width: 35px; 
+      height: 35px;
+      transition: box-shadow 0.3s ease, transform 0.2s;
       border: 1px solid #006090;
       box-shadow: 0 0 3px #006090, 0 0 8px #006090;
       background-color: rgba(255, 255, 255, 0.3);
+      cursor: pointer; 
 
       &:hover {
         border-color: rgb(7, 4, 173);
         box-shadow: 0 0 10px rgb(7, 4, 173), 0 0 20px rgb(7, 4, 173);
+        transform: scale(1.1); // Efecto de agrandamiento al pasar el mouse
       }
-    }
+    
   }
 }

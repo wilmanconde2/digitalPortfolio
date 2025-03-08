@@ -6,33 +6,22 @@ export const Navbar = () => {
   const { i18n } = useTranslation();
   const isMobile = useIsMobile();
 
-  const changeLanguage = (lng) => {
-    i18n.changeLanguage(lng);
+  // Función para alternar entre inglés y español
+  const toggleLanguage = () => {
+    const newLang = i18n.language === 'en' ? 'es' : 'en';
+    i18n.changeLanguage(newLang);
   };
 
   return (
-    <>
-      <div className='button-container'>
-        <div className='english-button'>
-          <a onClick={() => changeLanguage('en')}>
-            <img
-              className='english'
-              src={isMobile ? '/englishWhite.png' : '/englishWhite.png'}
-              alt='English icons created by afif fudin - Flaticon'
-            />
-          </a>
-        </div>
-        <div className='spanish-button'>
-          <a onClick={() => changeLanguage('es')}>
-            <img
-              className='spanish'
-              src={isMobile ? '/spanishWhite.png' : '/spanishWhite.png'}
-              alt='Spanish icons created by Freepik - Flaticon'
-            />
-          </a>
-        </div>
-      </div>
-    </>
+    <div className='button-container'>
+      <a onClick={toggleLanguage}>
+        <img
+          className='language-icon'
+          src={i18n.language === 'en' ? '/spanishWhite.png' : '/englishWhite.png'}
+          alt='Toggle language icon'
+        />
+      </a>
+    </div>
   );
 };
 
