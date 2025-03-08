@@ -4,7 +4,7 @@ const dateTime = new Date().toLocaleString();
 const Footer = () => {
   return (
     <>
-      <div className='footer-fixed'>{dateTime} - Kraken</div>
+      <div className='footer-fixed'>{dateTime} - KRAKEN</div>
     </>
   );
 };
