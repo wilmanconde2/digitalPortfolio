@@ -1,4 +1,11 @@
-$font-primary: 'Esteban', serif;
+@font-face {
+  font-family: 'MiFuente';
+  src: url('../../assets/fonts/nasalization.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+$font-primary: 'MiFuente', serif;
 
 * {
   margin: 0;
