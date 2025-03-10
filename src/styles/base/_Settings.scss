@@ -1,11 +1,4 @@
-@font-face {
-  font-family: 'MiFuente';
-  src: url('../../assets/fonts/nasalization.otf') format('opentype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-$font-primary: 'MiFuente', serif;
+$font-primary: 'kanit-regular', serif;
 
 * {
   margin: 0;
