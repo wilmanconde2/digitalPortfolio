@@ -3,27 +3,26 @@
   height: 75vh;
   width: 80%;
   margin: auto;
-  background-attachment: fixed;
+  background-attachment: inherit;
   background-position: center;
   background-repeat: no-repeat;
 
   .texto {
     color: whitesmoke;
     text-align: center;
-    padding-top: 4rem;
+    padding-top: 1.5rem;
   }
 }
 .parallax2 {
   background-image: url('/lightBulb.webp');
   height: 75vh;
   margin: auto;
-  background-attachment: fixed;
+  background-attachment: inherit;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .home__container {
-  // margin-top: 80%;
   margin-inline: 1rem;
   display: grid;
   padding: 10px;
@@ -79,6 +78,15 @@
 // ! BREAKPOINT
 
 @media (min-width: 576px) {
+  .parallax,
+  .parallax2 {
+    background-attachment: fixed;
+
+    .texto {
+      padding-top: 4rem;
+    }
+  }
+
   .home__container {
     max-width: 70%;
     margin: auto;
