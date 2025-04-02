@@ -39,8 +39,9 @@ const Projects = () => {
           <Card
             title='projects.cordobaTitle'
             description='projects.cordobaDescription'
-            link='#'
-            footer='Processing'
+            link='https://github.com/wilmanconde2/colegioCiudadCordoba-front'
+            link2='https://colegioccc.netlify.app/'
+            footer='April 2025'
           />
           <Card
             title='projects.polindromeTitle'
