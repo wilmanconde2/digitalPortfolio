@@ -16,7 +16,7 @@ const Card = ({ title, description, link, link2, footer }) => {
           {t('projects.netlify')}
         </a>
       </div>
-      <div className='card-footer'>{footer}</div>
+      <div className='card-footer'>{t(footer)}</div>
     </div>
   );
 };

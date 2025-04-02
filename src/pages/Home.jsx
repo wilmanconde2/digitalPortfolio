@@ -13,8 +13,8 @@ const Home = () => {
   return (
     <>
       <Navbar />
-      <div className="parallax">
-        <div className="texto">
+      <div className='parallax'>
+        <div className='texto'>
           <h1>Wilman Conde</h1>
           <h2>Jr Developer</h2>
         </div>
@@ -22,7 +22,7 @@ const Home = () => {
       <div className='home__container'>
         <div className='home__container__items container-items1'>
           <div className='item' id='home'>
-            <NavLink to='/'>
+            <NavLink to='/' onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
               <img
                 src={isMobile ? '/homeBlue.png' : '/homeBlue.png'}
                 alt='Home address icons created by alihmirza111 - Flaticon'
@@ -108,7 +108,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="parallax2"></div>
+      <div className='parallax2'></div>
       <Footer />
     </>
   );

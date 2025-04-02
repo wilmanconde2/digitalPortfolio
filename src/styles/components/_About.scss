@@ -33,6 +33,10 @@
     box-shadow: 0 0 10px rgb(7, 4, 173), 0 0 20px rgb(7, 4, 173);
     transition: box-shadow 0.3s ease;
   }
+
+  p {
+    font-size: 1.2rem;
+  }
   .about__container {
     width: 80%;
   }
@@ -56,5 +60,26 @@
 
   .name {
     margin-top: 3rem;
+  }
+}
+
+// ! -------------------------------------------------------------
+// BREAKPOINTS
+// ! -------------------------------------------------------------
+
+@media (min-width: 576px) {
+  .about__container {
+    .history {
+      width: 70%;
+      margin: auto;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .about__container {
+    .history {
+      width: 60%;
+    }
   }
 }

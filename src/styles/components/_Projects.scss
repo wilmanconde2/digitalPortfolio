@@ -7,11 +7,14 @@
 }
 
 .projects__container__items {
+  z-index: 1;
+  padding-block: 3rem;
   margin: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 90%;
 
   a {
     margin: 10px;
@@ -38,6 +41,7 @@
 
     .card-footer,
     .card-text {
+      font-size: 1.2rem;
       color: rgb(7, 4, 173);
     }
     .card-footer,
@@ -48,5 +52,30 @@ font-variant: small-caps;    }
   .text-center:hover {
     border-color: rgb(7, 4, 173);
     box-shadow: 0 0 10px rgb(7, 4, 173), 0 0 20px rgb(7, 4, 173);
+  }
+}
+
+// ! -------------------------------------------------------------
+
+// BREAKPOINTS
+
+// ! -------------------------------------------------------------
+
+@media (min-width: 576px) {
+  .projects__container__items {
+    width: 80%;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .projects__container__items {
+    width: 70%;
+  }
+}
+
+@media (min-width: 992px) {
+  .projects__container__items {
+    width: 60%;
   }
 }

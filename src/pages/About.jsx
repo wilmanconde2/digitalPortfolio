@@ -16,15 +16,15 @@ const About = () => {
           <HomeIcon />
           <div className='name'>
             <h1>Wilman Conde</h1>
-            <p>{t('about.description')}</p>
+            {/* <p>{t('about.description')}</p> */}
           </div>
           <div className='history'>
             <h2>{t('about.subtitle')}</h2>
             <p>{t('about.history')}</p>
           </div>
-          <div className='clients'>
+          {/* <div className='clients'>
             <p>{t('about.clients')}</p>
-          </div>
+          </div> */}
           <div className='experience'>
             <p>{t('about.experience')}</p>
           </div>

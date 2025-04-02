@@ -28,7 +28,8 @@
       color: #fefe5b;
     }
     p {
-      color: whitesmoke;
+      color: rgb(7, 4, 173);
+      font-size: 1.2rem;
     }
   }
 
@@ -40,8 +41,11 @@
     flex-direction: column;
 
     input {
+      font-size: 1.2rem;
+      text-align: center;
       width: 100%;
-      color: whitesmoke;
+      color: white;
+
       background-color: transparent;
       border-radius: 15px;
       border: 1px solid rgb(7, 4, 173);
@@ -49,15 +53,17 @@
       transition: box-shadow 0.3s ease;
     }
     input::placeholder {
-      color: whitesmoke;
+      color: rgb(7, 4, 173);
     }
     input:hover {
       border-color: rgb(7, 4, 173);
       box-shadow: 0 0 10px rgb(7, 4, 173), 0 0 20px rgb(7, 4, 173);
     }
     textarea {
+      font-size: 1.2rem;
       width: 100%;
-      color: whitesmoke;
+      color: white;
+
       background-color: transparent;
       border-radius: 15px;
       border: 1px solid rgb(7, 4, 173);
@@ -65,7 +71,7 @@
       transition: box-shadow 0.3s ease;
     }
     textarea::placeholder {
-      color: whitesmoke;
+      color: rgb(7, 4, 173);
     }
     textarea:hover {
       border-color: rgb(7, 4, 173);
@@ -85,5 +91,21 @@
       border-color: rgb(7, 4, 173);
       box-shadow: 0 0 10px rgb(7, 4, 173), 0 0 20px rgb(7, 4, 173);
     }
+  }
+}
+
+// ! -------------------------------------------------------------
+// BREAKPOINTS
+// ! -------------------------------------------------------------
+
+@media (min-width: 576px) {
+  .contact__container {
+    width: 70%;
+  }
+}
+
+@media (min-width: 768px) {
+  .contact__container {
+    width: 60%;
   }
 }
