@@ -60,45 +60,31 @@ const Home = () => {
         </div>
         <div className='home__container__items container-items2'>
           <div className='item' id='github'>
-            <a href={'https://github.com/wilmanconde2'} target='_blank' rel='noopener noreferrer'>
-              <img
-                src={isMobile ? '/githubBlue.png' : '/githubBlue.png'}
-                alt='Github icons created by -Artist - Flaticon'
-              />
-              <label>GitHub</label>
+            <a href={t('social.github.link')} target='_blank' rel='noopener noreferrer'>
+              <img src={isMobile ? '/githubBlue.png' : '/githubBlue.png'} alt='GitHub icons' />
+              <label>{t('social.github.name')}</label>
             </a>
           </div>
+
           <div className='item' id='linkedin'>
-            <a
-              href={'https://www.linkedin.com/in/wilman-conde/'}
-              target='_blank'
-              rel='noopener noreferrer'
-            >
+            <a href={t('social.linkedin.link')} target='_blank' rel='noopener noreferrer'>
               <img
                 src={isMobile ? '/linkedinBlue.png' : '/linkedinBlue.png'}
-                alt='Linkedin icons created by Smashicons - Flaticon'
+                alt='LinkedIn icons'
               />
-              <label>LinkedIn</label>
+              <label>{t('social.linkedin.name')}</label>
             </a>
           </div>
+
           <div className='item' id='x'>
-            <a href={'https://x.com/WilmanConde1982'} target='_blank' rel='noopener noreferrer'>
-              <img
-                src={isMobile ? '/xBlue.png' : '/xBlue.png'}
-                alt='Tweet icons created by Freepik - Flaticon'
-              />
-              <label>X</label>
+            <a href={t('social.x.link')} target='_blank' rel='noopener noreferrer'>
+              <img src={isMobile ? '/xBlue.png' : '/xBlue.png'} alt='X icons' />
+              <label>{t('social.x.name')}</label>
             </a>
           </div>
+
           <div className='item' id='cv'>
-            <a></a>
-            <a
-              href={
-                'https://drive.google.com/file/d/1IxZRqCVIX8r76eflSrBpQ2vm2-nNyJV2/view?usp=sharing'
-              }
-              target='_blank'
-              rel='noopener noreferrer'
-            >
+            <a href={t('cv.link')} target='_blank' rel='noopener noreferrer'>
               <img
                 src={isMobile ? '/resumeBlue.png' : '/resumeBlue.png'}
                 alt='Portfolio icons created by Freepik - Flaticon'

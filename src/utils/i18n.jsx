@@ -36,7 +36,7 @@ const resources = {
         weatherTitle: 'Real Time Weather',
         weatherDescription:
           'This project is a Weather Application built with React, designed to provide users with real-time weather information based on their selected city. It features a clean and interactive user interface with components that enhance usability and functionality.',
-        weatherFooter: 'October 2024',
+        weatherFooter: 'December 2024',
         cordobaTitle: 'City Cordoba School',
         cordobaDescription:
           'This website is an interactive educational platform designed for Colegio Ciudad Córdoba. It provides students and the general community with a range of services and features that facilitate access to relevant academic information. Among its features are an image carousel, forms to retrieve student codes, and the ability to view academic reports and recovery activities.The site also boasts a clean and accessible design with a navigation menu that includes sections such as History, Modalities, Services, PQRS (Questions, Complaints, Claims, and Suggestions), and contact details. Additionally, social media links are integrated to enhance communication with the educational community. The website allows for secure online payments and provides quick links to important resources, such as informational circulars and recovery schedules.The functionality is optimized for a seamless user experience, with notifications and messages that guide visitors through their needs, improving interaction with the institution.',
@@ -44,7 +44,7 @@ const resources = {
         portfolioTitle: 'Digital Portfolio',
         portfolioDescription:
           'A clean and modern digital portfolio website. The contact page allows visitors to reach out directly. The projects page showcases various works, each with detailed descriptions. The about page provides a personal and professional background. The website also includes links to LinkedIn, GitHub, X , and an option to download the CV in PDF format.',
-        portfolioFooter: 'October 2024',
+        portfolioFooter: 'November 2024',
         palindromeTitle: 'Palindromes',
         palindromeDescription:
           'This project is an application built with React, designed to help users easily check if a word or phrase is a palindrome. It features a clean and interactive interface with real-time feedback and intuitive functionality to enhance the user experience.',
@@ -58,6 +58,21 @@ const resources = {
       },
       cv: {
         title: 'Resume',
+        link: 'https://drive.google.com/file/d/1-B7BfkCGT9O_Ce6gQCGBWv_MUhOkVq94/view?usp=sharing',
+      },
+      social: {
+        github: {
+          name: 'GitHub',
+          link: 'https://github.com/wilmanconde2',
+        },
+        linkedin: {
+          name: 'LinkedIn',
+          link: 'https://www.linkedin.com/in/wilman-conde/',
+        },
+        x: {
+          name: 'X',
+          link: 'https://x.com/WilmanConde1982',
+        },
       },
     },
   },
@@ -96,7 +111,7 @@ const resources = {
         weatherTitle: 'Clima en Tiempo Real',
         weatherDescription:
           'Este proyecto es una aplicación del clima construida con React, diseñada para proporcionar a los usuarios información meteorológica en tiempo real basada en la ciudad que seleccionen. Cuenta con una interfaz de usuario limpia e interactiva, con componentes que mejoran la usabilidad y funcionalidad.',
-        weatherFooter: 'Octubre 2024',
+        weatherFooter: 'Diciembre 2024',
         cordobaTitle: 'Colegio Ciudad de Córdoba',
         cordobaDescription:
           'Esta web es una plataforma educativa interactiva diseñada para el Colegio Ciudad Córdoba. Ofrece a los estudiantes y a la comunidad en general una serie de servicios y funcionalidades que facilitan el acceso a información relevante sobre el centro académico. Entre sus características, se encuentran un carrusel de imágenes, formularios para obtener códigos estudiantiles, y la posibilidad de consultar reportes académicos y actividades de recuperación. La página también cuenta con un diseño limpio y accesible, con un menú de navegación que incluye secciones como Historia, Modalidades, Servicios, PQRS (Preguntas, Quejas, Reclamos y Sugerencias), y contacto. Además, se integran redes sociales para facilitar la conexión con la comunidad educativa. La web permite realizar pagos en línea de manera segura y proporciona enlaces rápidos a recursos importantes, como circulares informativas y horarios de recuperación. La funcionalidad está optimizada para la experiencia del usuario, con notificaciones y mensajes que guían al visitante a través de sus necesidades, mejorando la interacción con la institución.',
@@ -104,7 +119,7 @@ const resources = {
         portfolioTitle: 'Portfolio Digital',
         portfolioDescription:
           'Un portafolio digital moderno y limpio. La página de contacto permite a los visitantes comunicarse directamente. La página de proyectos muestra diversas obras, cada una con descripciones detalladas. La página "Acerca de" ofrece información sobre el perfil personal y profesional. El sitio web también incluye enlaces a LinkedIn, GitHub, X (anteriormente Twitter) y una opción para descargar el CV en formato PDF.',
-        portfolioFooter: 'Octubre 2024',
+        portfolioFooter: 'Noviembre 2024',
         toDoListTitle: 'Lista de tareas',
         toDoListDescription:
           'Esta es una aplicación de lista de tareas sencilla e interactiva construida con React. Permite a los usuarios agregar, eliminar y actualizar tareas, mientras almacena las tareas localmente en el navegador para su persistencia entre sesiones. Además, los usuarios pueden alternar entre los modos claro y oscuro, y la fecha y hora actuales se muestran en el encabezado.',
@@ -118,6 +133,21 @@ const resources = {
       },
       cv: {
         title: 'Currículum ',
+        link: 'https://drive.google.com/file/d/1IxZRqCVIX8r76eflSrBpQ2vm2-nNyJV2/view?usp=sharing',
+      },
+      social: {
+        github: {
+          name: 'GitHub',
+          link: 'https://github.com/wilmanconde2',
+        },
+        linkedin: {
+          name: 'LinkedIn',
+          link: 'https://www.linkedin.com/in/wilman-conde/',
+        },
+        x: {
+          name: 'X',
+          link: 'https://x.com/WilmanConde1982',
+        },
       },
     },
   },
